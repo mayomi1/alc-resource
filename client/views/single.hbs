@@ -1,0 +1,41 @@
+<div class="container">
+    <header class="header clearfix">
+        <nav>
+            <ul class="nav nav-pills float-right">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </nav>
+        <h3 class="text-muted">SRW</h3>
+    </header>
+
+    <main role="main">
+
+        <div class="jumbotron">
+            <h1 class="display-3">SRW</h1>
+            <p class="lead">Student Resource Website.</p>
+            <p><a class="btn btn-lg btn-success" href="/add-resource" role="button">Upload a new Resource</a></p>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+
+                <div class="card" style="width: 69rem;">
+                    <div class="card-body">
+                        <h4 class="card-title">Resource Title</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">{{data.title}}</h6>
+                        <p class="card-text">{{data.description}}</p>
+                        <small class="card-subtitle mb-2 text-muted">author: {{data.author}}</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </main>
